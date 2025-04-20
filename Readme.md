@@ -29,7 +29,7 @@ A simple basketball scoreboard application built with TypeScript, HTML, and CSS.
 ## Screenshots
 
 ### Main Interface
-![Basketball Scoreboard Screenshot](https://via.placeholder.com/800x400?text=Basketball+Scoreboard)
+![Basketball Scoreboard Screenshot]("./public/preview.png")
 
 ## Installation
 
@@ -37,7 +37,7 @@ To set up the project locally, follow these steps:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/basketball-scoreboard.git
+   git clone https://github.com/bakadja/basketball-scoreboard.git
    cd basketball-scoreboard
    ```
 
