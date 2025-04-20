@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  margin: 5% auto;
+  width: 575px;
+  height: 385px;
+  display: flex;
+  justify-content: space-around;
+  background: #1B244A;
+  color: #eeeeee;
+  font-family: "Roboto", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.container-title {
+  /* Typography */
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 36px;
+  text-align: center;
+}
+
+.container-score {
+  width: 155px;
+  height: 120px;
+  margin-bottom: 26px;
+  border-radius: 5px;
+  background-color: #080001;
+}
+
+.score {
+  display: block;
+  text-align: center;
+  /* Typography */
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-weight: 400;
+  font-size: 90px;
+  line-height: 127px;
+  text-align: center;
+  color: #f94f6d;
+}
+
+.add-points-btns {
+  height: 45px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.add-points-btns button {
+  border-radius: 5px;
+  border-width: 2px;
+  padding: 9px;
+  border: 2px solid #9AABD8;
+  background-color: inherit;
+  color: #9AABD8;
+}
+
+.plus {
+  /* typography */
+  font-family: "Cursed Timer ULiL", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27.81px;
+  text-align: center;
+}
+
+.reset {
+  display: block;
+  align-self: center;
+}
+
+.reset-btn {
+  width: 155px;
+  height: 45px;
+  text-align: center;
+  margin-top: 26px;
+  border-radius: 5px;
+  border-width: 2px;
+  border: 2px solid #064E3B;
+  background-color: #6EE7B7;
+  color: #000000;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 28px;
+}
