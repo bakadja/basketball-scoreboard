@@ -25,13 +25,13 @@
           <span id="home-current-score" class="score">0</span>
         </div>
         <div class="add-points-btns">
-          <button type="button" class="plus" onclick="updateScore('home', 1)">
+          <button type="button" class="plus" onclick="updateScore('home', 1)" aria-label="Add 1 point to Home team">
             +1
           </button>
-          <button type="button" class="plus" onclick="updateScore('home', 2)">
+          <button type="button" class="plus" onclick="updateScore('home', 2)" aria-label="Add 2 points to Home team">
             +2
           </button>
-          <button type="button" class="plus" onclick="updateScore('home', 3)">
+          <button type="button" class="plus" onclick="updateScore('home', 3)" aria-label="Add 3 points to Home team">
             +3
           </button>
         </div>
@@ -42,19 +42,19 @@
           <span id="guest-current-score" class="score">0</span>
         </div>
         <div class="add-points-btns">
-          <button type="button" class="plus" onclick="updateScore('guest', 1)">
+          <button type="button" class="plus" onclick="updateScore('guest', 1)" aria-label="Add 1 point to Guest team">
             +1
           </button>
-          <button type="button" class="plus" onclick="updateScore('guest', 2)">
+          <button type="button" class="plus" onclick="updateScore('guest', 2)" aria-label="Add 2 points to Guest team">
             +2
           </button>
-          <button type="button" class="plus" onclick="updateScore('guest', 3)">
+          <button type="button" class="plus" onclick="updateScore('guest', 3)" aria-label="Add 3 points to Guest team">
             +3
           </button>
         </div>
       </section>
       <div class="reset">
-        <button type="button" class="reset-btn" onclick="resetScore()">
+        <button type="button" class="reset-btn" onclick="resetScore()" aria-label="Reset all scores">
             Reset
         </button>
       </div>
