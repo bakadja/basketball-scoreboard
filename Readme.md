@@ -32,7 +32,7 @@ A simple basketball scoreboard application built with TypeScript, HTML, and CSS.
 ![Basketball Scoreboard Screenshot](./public/preview.png)
 
 ## Demo
-View the live demo [here](https:/basketball-scoreboard.kevinngongang.dev/).
+View the live demo [here](https://basketball-scoreboard.kevinngongang.dev/).
 
 ## Installation
 
